@@ -1,0 +1,170 @@
+---
+title: "Infant growth trajectories and dyslipidemia in adolescence"
+fontsize: 16pt
+date: "January 16, 2017"
+bibliography: bib1.bib
+output:
+  beamer_presentation:
+    colortheme: beetle
+    fig_caption: no
+    fonttheme: structurebold
+    includes:
+      in_header: header.tex
+    slide_level: 3
+    theme: Frankfurt
+    toc: yes
+---
+
+
+# Significance and Innovation
+
+## CVD and lipids
+### CVD and lipids
+
+- CVD is a chronic disease
+- Primary modifiable risk factors
+- lipid description
+
+## Developmental Origins of Health and Disease
+### Developmental Origins of Health and Disease
+
+\centering
+![Hanson](figures/hanson-fig1.png)  
+
+
+## Postnatal growth and lipids
+### Postnatal growth and lipids
+
+\begin{itemize}
+	\item Repeated animal and human studies have shown that postnatal growth is associated with the later development of adverse cardiovascular risk factors like low HDL-C levels.
+\end{itemize}
+\vspace*{-0.5cm}
+
+\begin{table}[H]
+\begin{tabular}{llC{1.5cm}C{2cm}C{2cm}C{2cm}}
+\toprule
+ & Author     & Year published & Direction of growth with increase in HDL-C & 2+ observations in change measure & Non-European sample? \\
+\midrule
+1 & Corvalan   & 2009           & +   &               & \ding{52}   \\
+2 & Ekelund    & 2007           & +   &               &             \\
+3 & Howe       & 2010           & --  &               &             \\
+4 & Kajantie   & 2008           & +   &               &             \\
+5 & Leunissen  & 2009           & --  &               &             \\
+6 & Oostvogels & 2014           & --  &               &             \\
+7 & Tzoulaki   & 2010           & +   &   \ding{52}   &             \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+## Postnatal growth as an environmental cue
+### Postnatal growth as an environmental cue
+
+* Find a good figure demonstrating growth as an environmental cue.
+
+# Specific Aims
+
+## Aims
+### Aims
+
+Overall:
+- Investigate the association between postnatal growth trajectories and lipids in adolescence
+    - Contemporary Chilean birth cohort with monthly measures of weight in the first year of life
+    - High quality clinical measures of cardiovascular disease risk factors.
+
+- Will investigate postnatal growth trajectories for weight-for-length, weight and length outcome measures.
+
+
+##Aim 1
+### Aim 1
+
+What do growth trajectories look like for infants from 0 to 12 months and what are some significant predictors?
+
+\smallskip
+
+\begin{description}
+	\item[Aim 1] Characterize individual growth trajectories in the first year of life and replicate predictors of growth using external validation with an independent sample.
+\end{description}
+
+\smallskip
+
+We expect to replicate previous findings \footfullcite{Pizzi C, Cole TJ, Richiardi L, dos-Santos-Silva I, Corvalan C, De Stavola B. Prenatal Influences on Size, Velocity and Tempo of Infant Growth: Findings from Three Contemporary Cohorts. PLoS ONE. 2014 Feb 27;9(2):e90291.} indicating a positive association between:
+
+1. Maternal characteristics such as pre-pregnancy BMI, height and age with trajectory size.
+
+2. Maternal education and trajectory velocity.
+
+
+### Aim 2
+
+Are there any specific types of postnatal growth trajectories associated with dyslipidemia?
+
+\smallskip
+
+\begin{description}
+	\item[Aim 2] Examine the association between postnatal growth trajectories and HDL-C levels.
+\end{description}
+
+Based on prior evidence we expect
+
+1. Infants with steeper growth trajectories to associate with adverse HDL-C levels in adolescence.
+
+2. Males will show a stronger association between size, tempo and velocity measures than females.
+
+### Aim 3
+
+# Approach
+
+## SITAR method
+
+### SITAR method
+
+## Latent growth mixture models (LGMM)
+### Latent growth mixture models (LGMM)
+
+    
+# Strengths and Limitations
+
+## Strengths and Limitation
+### Strengths and Limitation
+
+* Strengths
+
+* Limitations
+
+# Public Health Implications
+
+
+## Implications
+### Implications
+- Point 1
+- Point 2
+
+<!-- Note: level 3 means that one pound sign is the section (group in header)
+# two pound signs is a subsection (group within group in header). three pound signs the frametitle.
+
+Good documentation for beamer use in Rmarkdown:
+1. http://rmarkdown.rstudio.com/beamer_presentation_format.html#overview
+2. http://svmiller.com/blog/2015/02/moving-from-beamer-to-r-markdown/
+
+Example of their explanation for slide structure in markdown compared to LaTex:
+
+# This is my section
+## This is my subsection
+### Title of a slide
+
+*Hi mom!*
+
+is the same as
+
+\section{This is my section}
+\subsection{This is my subsection}
+\frame{
+\frametitle{Title of a slide}
+
+\textit{Hi mom!}
+
+
+}
+-->
+
+

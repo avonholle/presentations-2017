@@ -1,0 +1,93 @@
+\usepackage{graphicx}
+\usepackage{rotating}
+%\setbeamertemplate{caption}[numbered]
+
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage[normalem]{ulem} % NOTE: for some reason I can't load this package.
+%\mode<presentation>
+
+\usepackage{wasysym}
+\usepackage{amsmath}
+
+\usepackage{enumitem}
+\usepackage{amsfonts}
+
+\setlist[itemize,1]{label=$\square$}
+\setlist[itemize,2]{label=$\diamond$}
+
+
+\setbeamertemplate{navigation symbols}{}
+\institute{Department of Epidemiology}
+\author{Ann Von Holle}
+\titlegraphic{\includegraphics[width=0.3\paperwidth]{../unclogos_print_ex/print/white.eps}}
+\setbeamertemplate{title page}[empty]
+
+\setbeamerfont{subtitle}{size=\small}
+
+\setbeamercovered{transparent}
+
+%%% BEGINNING of my additions %%%
+
+% see http://tex.stackexchange.com/questions/12703/how-to-create-fixed-width-table-columns-with-text-raggedright-centered-raggedlef
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\usepackage{booktabs}
+\usepackage{pifont}
+\setbeamersize{text margin left=10pt,text margin right=10pt} %set margin sizes
+\usepackage{float}
+
+% got from http://tex.stackexchange.com/questions/48023/mimic-bibtex-apalike-with-biblatex-biblatex-apa-broken
+\PassOptionsToPackage{
+        style=numeric,
+        hyperref=true,
+        backend=bibtex,
+        maxbibnames=99,
+        firstinits=true,
+        uniquename=init,
+        maxcitenames=2,
+        parentracker=true,
+        url=false,
+        doi=true,
+        isbn=false,
+        eprint=false,
+        backref=true,
+            }   {biblatex}
+
+\usepackage{biblatex}
+\addbibresource{bib1}
+% see http://tex.stackexchange.com/questions/43083/author-year-abbr-journal-name-as-citation-style
+\DeclareCiteCommand{\longcite}{(}{%
+    \printnames[author]{author}, \printfield{year})}{}{}%
+
+\newcommand{\customcite}[1]{\citeauthor{#1}, \citetitle{#1}, \citeyear{#1}}
+\newcommand{\customcitetwo}[1]{\citeauthor{#1}, \citeyear{#1}}
+
+\renewcommand{\footnotesize}{\tiny}  % change font size of citation
+\renewcommand\multicitedelim{\addsemicolon\space} % This doesn't seem to work, but see http://tex.stackexchange.com/questions/167665/multiple-references-with-footfullcite
+
+%%% END of my additions %%%
+
+\definecolor{clemsonpurple}{HTML}{522D80}
+\definecolor{clemsonorange}{HTML}{F66733}
+
+%\setbeamercolor{frametitle}{fg=clemsonpurple,bg=white}
+%\setbeamercolor{title}{fg=clemsonpurple,bg=white}
+%\setbeamercolor{local structure}{fg=clemsonpurple}
+%\setbeamercolor{section in toc}{fg=clemsonpurple,bg=white}
+% \setbeamercolor{subsection in toc}{fg=clemsonorange,bg=white}
+
+%\setbeamercolor{item projected}{fg=clemsonpurple,bg=white}
+%\setbeamertemplate{itemize item}{\color{clemsonpurple}$\bullet$}
+%\setbeamertemplate{itemize subitem}{\color{clemsonpurple}\scriptsize{$\bullet$}}
+\let\Tiny=\tiny
+
+\AtBeginPart{}
+\AtBeginSection{}
+\AtBeginSubsection{}
+\AtBeginSubsubsection{}
+\setlength{\emergencystretch}{0em}
+\setlength{\parskip}{0pt}
