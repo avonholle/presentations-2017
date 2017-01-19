@@ -6,15 +6,14 @@ bibliography: bib1.bib
 output:
   beamer_presentation:
     colortheme: beetle
+    theme: Frankfurt
     fig_caption: no
-    fonttheme: structurebold
+    fonttheme: professionalfonts
     includes:
       in_header: header.tex
     slide_level: 3
-    theme: Frankfurt
     toc: yes
 ---
-
 
 # Significance and Innovation
 
@@ -31,47 +30,50 @@ output:
 \centering
 ![Hanson](figures/hanson-fig1.png)  
 
-
 ## Postnatal growth and lipids
 ### Postnatal growth and lipids
 
 \begin{itemize}
-	\item Repeated animal and human studies have shown that postnatal growth is associated with the later development of adverse cardiovascular risk factors like low HDL-C levels.
+	\item Repeated animal and human studies have shown that postnatal growth is associated with the later development of dyslipidemia.
 \end{itemize}
 \vspace*{-0.5cm}
 
 \begin{table}[H]
-\begin{tabular}{llC{1.5cm}C{2cm}C{2cm}C{2cm}}
+\resizebox{1.25\textwidth}{!}{%
+\begin{tabulary}{\textwidth}{Lp{2cm}p{1cm}p{1.75cm}R{1cm}Z{3cm}Z{5cm}Z{4cm}Z{4cm}}
 \toprule
- & Author     & Year published & Direction of growth with increase in HDL-C & 2+ observations in change measure & Non-European sample? \\
-\midrule
-1 & Corvalan   & 2009           & +   &               & \ding{52}   \\
-2 & Ekelund    & 2007           & +   &               &             \\
-3 & Howe       & 2010           & --  &               &             \\
-4 & Kajantie   & 2008           & +   &               &             \\
-5 & Leunissen  & 2009           & --  &               &             \\
-6 & Oostvogels & 2014           & --  &               &             \\
-7 & Tzoulaki   & 2010           & +   &   \ding{52}   &             \\
+	\# & First Author & Year & Country & Sample size & Age at growth measurements & Growth measurement & Outcome measures & Mean age at outcome measures (years (SD)) \\ \hline
+	1 & Ekelund & 2007 & Sweden & 128 & 6 months, 1 year, 2 year & Change in weight Z-score between 0 to 6 months & HDL (+), TG (+) & 16.8 (0.4) male; 16.7 (0.4) female \\ 
+	2 & Kajantie & 2008 & Finland & 1999 & 0, 3, 6, 9, 12, 15, 18, 21, 24 months & BMI SD scores at 6 months adj. for birthweight & TC (-), HDL (+), non-HDL (-), TG (-) at 6 months & 61.5 (3.0) women; 61.5 (sd=2.8) \\
+	3 & Leunissen & 2009 & Netherlands & 200 & 0, 3, 6, 9, 12 months & SD score of weight gain (Z-score?) per 3 month period in first year of life. & HDL-C (-), LDL-C, TG(+), TC (at 0-3 months only) & 20.8 (1.67) \\ 
+	4 & Corvalan & 2009 & Chile & 323 & 0, 6, 12, 18, 24 and 36 months & WHO Z-scores difference 0 to 6 months & HDL-C (-), LDL-C (+), TG (+), TC [exclusive bf] & 4 \\ 
+	5 & Tzoulaki & 2010 & Finland & 3778 & not specified: during infancy & Peak weight velocity (kg/year) & HDL-C (-), TG (-) & 31 \\ 
+	6 & Howe & 2010 & Great Britain & 4601 & 0, 2, 4 months & SD score of ponderal index (PI), kg/m3. change from 0 to 2 months (boys) and 0 to 4 months (girls) & LDL (+), HDL (-), TG (+) & 15 \\ 
+	7 & Oostvogels & 2014 & Netherlands & 1459 &  & Change in internal SD score for weight-for-length from 1 to 3 months & HDL-C (-), TG (+) & 5-6  \\ 
 \bottomrule
-\end{tabular}
+\end{tabulary}%
+}
 \end{table}
 
 ## Postnatal growth as an environmental cue
 ### Postnatal growth as an environmental cue
 
-* Find a good figure demonstrating growth as an environmental cue.
+* The postnatal period is a critical window of time in which accelerated growth can influence risk of chronic disease later in life: developmental programming hypothesis
+
+![Santos](figures/santos-2012-fig1.png)
 
 # Specific Aims
 
 ## Aims
 ### Aims
 
-Overall:
-- Investigate the association between postnatal growth trajectories and lipids in adolescence
-    - Contemporary Chilean birth cohort with monthly measures of weight in the first year of life
-    - High quality clinical measures of cardiovascular disease risk factors.
+* Overall:
 
-- Will investigate postnatal growth trajectories for weight-for-length, weight and length outcome measures.
+  * Investigate the association between postnatal growth trajectories and lipids in adolescence
+      - Contemporary Chilean birth cohort with monthly measures of weight in the first year of life
+      - High quality clinical measures of cardiovascular disease risk factors.
+
+  * Will investigate postnatal growth trajectories for weight-for-length, weight and length outcome measures.
 
 
 ##Aim 1
@@ -100,23 +102,47 @@ Are there any specific types of postnatal growth trajectories associated with dy
 
 \smallskip
 
-\begin{description}
-	\item[Aim 2] Examine the association between postnatal growth trajectories and HDL-C levels.
-\end{description}
+\begin{enumerate}[label=Aim 2, leftmargin=*]
+	\item Examine the association between postnatal growth trajectories and dyslipidemia.
+\end{enumerate}
 
-Based on prior evidence we expect
+* Based on prior evidence we expect:
 
-1. Infants with steeper growth trajectories to associate with adverse HDL-C levels in adolescence.
+1. Infants with steeper growth trajectories more susceptible to dyslipidemia in adolescence.
 
 2. Males will show a stronger association between size, tempo and velocity measures than females.
 
+
+
 ### Aim 3
+
+Do growth trajectories modify the association between genetic variants related to lipid metabolism and dyslipidemia in adolescence?
+
+\begin{enumerate}[label=Aim 3, leftmargin=*]
+	\item Assess gene-environment interaction between growth trajectory characteristics and genetic variants of lipid metabolism with dyslipidemia at 18 years of age as an outcome.
+\end{enumerate}
+
+* We expect:
+
+    1. The selected genetic variants will associate with dyslipidemia in adolescence.
+    
+    2. A gene-environment interaction exists in which extreme and less favorable growth characteristics will exhibit stronger, deleterious associations between the genetic variants and dyslipidemia.
 
 # Approach
 
 ## SITAR method
-
 ### SITAR method
+
+SITAR: SuperImposition by Translation And Rotation \footfullcite{Beath KJ; Heller GZ.  Latent trajectory modelling of multivariate binary data. Statistical Modelling. 2009 Oct 21;9(3):199-213. Cole TJ; Donaldson MDC, Ben-Shlomo Y. SITAR -- a useful instrument for growth curve analysis. International Journal of Epidemiology. 2010 Jul 20;39(6):1558–66.}.
+
+\smallskip
+Use SITAR to measure three measures of postnatal growth: size, tempo and velocity.
+\smallskip
+
+
+\centering
+![sitar](figures/sim-growth-2.png)  
+
 
 ## Latent growth mixture models (LGMM)
 ### Latent growth mixture models (LGMM)
@@ -134,10 +160,9 @@ Based on prior evidence we expect
 # Public Health Implications
 
 
-## Implications
 ### Implications
-- Point 1
-- Point 2
+
+- Add information from Messer 2015 paper.
 
 <!-- Note: level 3 means that one pound sign is the section (group in header)
 # two pound signs is a subsection (group within group in header). three pound signs the frametitle.
@@ -168,3 +193,4 @@ is the same as
 -->
 
 
+<!--\color{white}-->
