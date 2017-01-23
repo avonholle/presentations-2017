@@ -3,6 +3,7 @@ title: "Infant growth trajectories and dyslipidemia in adolescence"
 fontsize: 16pt
 date: "February 2, 2017"
 bibliography: bib1.bib
+csl: ama.csl
 output:
   beamer_presentation:
     colortheme: beetle
@@ -17,9 +18,8 @@ output:
 # Background
 ## Background
 
-### Definition of dyslipidemia for children\footfullcite{Expert Panel on Integrated Guidelines for Cardiovascular Health and Risk Reduction in Children and Adolescents: Summary Report. PEDIATRICS. 2011 Dec 1;128(Supplement):S213–56.}
+### Definition of dyslipidemia for children [@de_Jesus_2011]
 
-\note{How prevalent is dyslipidemia?}
 
 \begin{columns}
 
@@ -37,28 +37,20 @@ output:
 
 \begin{column}{0.75\textwidth}
 
-\includegraphics{figures/expert-2011-table9-1.png}
+
+\includegraphics[scale=0.1]{figures/expert-2011-table9-1.png}
 
 \end{column}
 
 \end{columns}
 
-### Dyslipidemia levels in United States children\footfullcite{Nguyen D, Kit B, Carroll M. Abnormal Cholesterol Among Children and Adolescents in the United States, 2011-2014. NCHS Data Brief. 2015 Dec;(228):1–8.}
+### Dyslipidemia levels in United States children [@nguyen_abnormal_2015]
 
-\includegraphics{figures/Nguyen-2015-fig4.png}
-
+<!-- \includegraphics[scale=0.1]{figures/Nguyen-2015-fig4.png} -->
 
 ### Cardiovascular disease and dyslipidemia
 
-
-* Why is dyslipidemia important?
-  - A risk factor for cardiovascular disease
-  - contributes to the atherosclerotic process.
-
-
-* Dyslipidemia affects xx proportion of the population with notable health disparities across racial/ethnic groups
-    - Adverse lipid levels represent strong risk factors for mnay cardiovascular disease outcomes
-    - Lipids are targets for intervention because they represent modifiable factors
+* Put slide here demonstrating connection between dyslipidemia and CVD
 
 ### Disparities in Lipids
 
@@ -73,13 +65,13 @@ output:
     - Birthweight started as one widely noted early life determinant
     - Hypotheses have evolved and now include weight change over time in infancy: growth trajectories.
 
-### Developmental Origins of Health and Disease\footfullcite{Hanson MA; Gluckman PD. Early Developmental Conditioning of Later Health and Disease: Physiology or Pathophysiology? Physiological Reviews. 2014 Oct 1;94(4):1027–76.} (DOoHAD)
+### Developmental Origins of Health and Disease [@hanson_early_2014] (DOoHAD)
 
-\centering
-![Hanson](figures/hanson-fig1.png)
-<!-- <img src="figures/hanson-fig1.png" width="200"> -->
+<!-- \centering -->
+<!-- \includegraphics[scale=0.1]{figures/hanson-fig1.png} -->
 
-<!--\note{This figure drives home the importance of intervention at an early age.}-->
+
+\note{This figure drives home the importance of intervention at an early age.}
 
 ### Prior studies point towards association between postnatal growth and dyslipidemia later in life.
 
@@ -102,9 +94,9 @@ output:
 ### The postnatal period is a critical window of time in which accelerated growth can influence risk of chronic disease later in life: developmental programming hypothesis
 
 \centering
-\includegraphics[scale=0.75]{figures/santos-2012-fig1.png}
+<!-- \includegraphics[scale=0.1]{figures/santos-2012-fig1.png} -->
 
-### Directed Acyclic Graph (DAG)
+### Causal relationship between growth and dyslipidemia later in life
 
 \begin{figure}
  \scalebox{1.5}{
@@ -139,72 +131,44 @@ Overall:
   * Will investigate postnatal growth trajectories for weight-for-length, weight and length outcome measures.
 
 ## Aim 1
-### Aim 1
+### Aim 1:  Characterize individual growth trajectories[@pizzi_prenatal_2014]  in the first year of life and replicate predictors of growth using external validation with an independent sample.
 
-Characterize growth trajectories for infants from 0 to 12 months and what are some significant predictors?
 
-\smallskip
-
-\begin{description}
-	\item[Aim 1] Characterize individual growth trajectories in the first year of life and replicate predictors of growth using external validation with an independent sample.
-\end{description}
-
-\smallskip
-
-We expect to replicate previous findings \footfullcite{Pizzi C, Cole TJ, Richiardi L, dos-Santos-Silva I, Corvalan C, De Stavola B. Prenatal Influences on Size, Velocity and Tempo of Infant Growth: Findings from Three Contemporary Cohorts. PLoS ONE. 2014 Feb 27;9(2):e90291.} indicating a positive association between:
+\note{We expect to replicate previous findings indicating a positive association between:
 
 1. Maternal characteristics such as pre-pregnancy BMI, height and age with trajectory size.
 
-2. Maternal education and trajectory velocity.
+2. Maternal education and trajectory velocity.}
+
+### Aim 2: Examine the association between postnatal growth trajectories and dyslipidemia.
+
+\note{Do certain postnatal growth trajectories associate with dyslipidemia?}
+\note{We expect: Infants with faster growth trajectories will be more susceptible to dyslipidemia in adolescence.}
 
 
-### Aim 2
-
-Do certain postnatal growth trajectories associate with dyslipidemia?
-
-\smallskip
-
-\begin{enumerate}[label=Aim 2, leftmargin=*]
-	\item Examine the association between postnatal growth trajectories and dyslipidemia.
-\end{enumerate}
-
-We expect:
-
-Infants with faster growth trajectories will be more susceptible to dyslipidemia in adolescence.
+### Aim 3: Assess gene-environment interaction between growth trajectory characteristics and genetic variants of lipid metabolism with dyslipidemia at 18 years of age as an outcome.
 
 
-### Aim 3
+\note{Do growth trajectories modify the association between genetic variants related to lipid metabolism and dyslipidemia in adolescence?}
 
-\begin{enumerate}[label=Question, leftmargin=*]
-  \item Do growth trajectories modify the association between genetic variants related to lipid metabolism and dyslipidemia in adolescence?
-\end{enumerate}
-
-\begin{enumerate}[label=Aim 3, leftmargin=*]
-	\item Assess gene-environment interaction between growth trajectory characteristics and genetic variants of lipid metabolism with dyslipidemia at 18 years of age as an outcome.
-\end{enumerate}
-
-We expect:
-
-1. The selected genetic variants will associate with dyslipidemia in adolescence.
-    
-2. A gene-environment interaction exists in which extreme and less favorable growth characteristics will exhibit stronger, deleterious associations between the genetic variants and dyslipidemia.
+\note{We expect: 1. The selected genetic variants will associate with dyslipidemia in adolescence.
+2. A gene-environment interaction exists in which extreme and less favorable growth characteristics will exhibit stronger, deleterious associations between the genetic variants and dyslipidemia.}
 
 # Approach
 ## Approach
 
-### Use SITAR\footfullcite{Beath KJ; Heller GZ.  Latent trajectory modelling of multivariate binary data. Statistical Modelling. 2009 Oct 21;9(3):199-213. Cole TJ; Donaldson MDC, Ben-Shlomo Y. SITAR -- a useful instrument for growth curve analysis. International Journal of Epidemiology. 2010 Jul 20;39(6):1558–66.} method to measure 3 types of postnatal growth: size, tempo, velocity
+### Use SITAR [@beath_infant_2007] method to measure 3 types of postnatal growth: size, tempo, velocity
 
 \note{SITAR: SuperImposition by Translation And Rotation}
 \note{These methods are a novel approach to this area of research.}
 
 \centering
-![sitar](figures/sim-growth-2.png)  
-
+<!-- ![sitar](figures/sim-growth-2.png)   -->
 
 ### Latent growth mixture models (LGMM) can provide unobserved groups of peop
 
 \centering
-![sitar](figures/sim-lgmm-2.png)  
+<!-- ![sitar](figures/sim-lgmm-2.png)   -->
 
 # Preliminary results
 
@@ -321,3 +285,8 @@ is the same as
 \end{figure}
 
 -->
+
+
+# References
+## References
+### References  {.allowframebreaks}
