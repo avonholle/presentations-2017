@@ -12,15 +12,35 @@
 
 \usepackage{enumitem}
 \usepackage{amsfonts}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
 
-\setlist[itemize,1]{label=$\square$}
-\setlist[itemize,2]{label=$\diamond$}
+% \setbeamercolor*{local structure}{fg=white}
+% \setbeamercolor*{enumerate item}{fg=white}
+% \setbeamercolor*{enumerate subitem}{fg=white}
+% \setbeamercolor*{enumerate subsubitem}{fg=white}
 
+\setlist[description]{%
+%  topsep=30pt,               % space before start / after end of list
+%  itemsep=5pt,               % space between items
+%  font={\bfseries\sffamily}, % set the label font
+  font={\color{white}}, % if colour is needed
+}
+\setlist[enumerate]{%
+  font={\color{white}}, % if colour is needed
+}
+
+
+% \definecolor{myblue}{RGB}{123, 175, 212}%see http://tex.stackexchange.com/questions/110101/how-to-change-the-color-of-bullets-in-a-list
+
+\definecolor{mywhite}{RGB}{255, 255, 255}
+\setlist[itemize,1]{label=\color{mywhite}\large$\bullet$} % part of enumitem
+\setlist[itemize,2]{label=\color{mywhite}$\diamond$}
 
 \setbeamertemplate{navigation symbols}{}
 \institute{Department of Epidemiology}
 \author{Ann Von Holle}
-\titlegraphic{\includegraphics[width=0.3\paperwidth]{../unclogos_print_ex/print/white.eps}}
+\titlegraphic{\includegraphics[width=0.3\paperwidth]{../../unclogos_print_ex/print/white.eps}}
 \setbeamertemplate{title page}[empty]
 
 \setbeamerfont{subtitle}{size=\small}
@@ -31,7 +51,7 @@
 
 % see http://tex.stackexchange.com/questions/12703/how-to-create-fixed-width-table-columns-with-text-raggedright-centered-raggedlef
 \usepackage{array}
-\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{Z}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
@@ -39,6 +59,8 @@
 \usepackage{pifont}
 \setbeamersize{text margin left=10pt,text margin right=10pt} %set margin sizes
 \usepackage{float}
+%\usepackage[table]{xcolor}%option clash for xcolor
+\usepackage{tabulary}
 
 % got from http://tex.stackexchange.com/questions/48023/mimic-bibtex-apalike-with-biblatex-biblatex-apa-broken
 \PassOptionsToPackage{
@@ -78,7 +100,7 @@
 %\setbeamercolor{title}{fg=clemsonpurple,bg=white}
 %\setbeamercolor{local structure}{fg=clemsonpurple}
 %\setbeamercolor{section in toc}{fg=clemsonpurple,bg=white}
-% \setbeamercolor{subsection in toc}{fg=clemsonorange,bg=white}
+%\setbeamercolor{subsection in toc}{fg=clemsonorange,bg=white}
 
 %\setbeamercolor{item projected}{fg=clemsonpurple,bg=white}
 %\setbeamertemplate{itemize item}{\color{clemsonpurple}$\bullet$}
