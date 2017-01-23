@@ -1,7 +1,7 @@
 ---
 title: "Infant growth trajectories and dyslipidemia in adolescence"
 fontsize: 16pt
-date: "January 16, 2017"
+date: "February 2, 2017"
 bibliography: bib1.bib
 output:
   beamer_presentation:
@@ -15,20 +15,47 @@ output:
 ---
 
 # Background
+## Background
 
-### Dyslipidemia in Children
+### Definition of dyslipidemia for children\footfullcite{Expert Panel on Integrated Guidelines for Cardiovascular Health and Risk Reduction in Children and Adolescents: Summary Report. PEDIATRICS. 2011 Dec 1;128(Supplement):S213–56.}
 
 \note{How prevalent is dyslipidemia?}
 
+\begin{columns}
 
+\begin{column}{0.25\textwidth}
+
+* Bullet point here
+
+\vspace{3mm}
+
+\vspace{3mm}
+
+\end{column}
+
+\noindent
+
+\begin{column}{0.75\textwidth}
+
+\includegraphics{figures/expert-2011-table9-1.png}
+
+\end{column}
+
+\end{columns}
+
+### Dyslipidemia levels in United States children\footfullcite{Nguyen D, Kit B, Carroll M. Abnormal Cholesterol Among Children and Adolescents in the United States, 2011-2014. NCHS Data Brief. 2015 Dec;(228):1–8.}
+
+\includegraphics{figures/Nguyen-2015-fig4.png}
 
 
 ### Cardiovascular disease and dyslipidemia
 
+
 * Why is dyslipidemia important?
   - A risk factor for cardiovascular disease
   - contributes to the atherosclerotic process.
-  
+
+
 * Dyslipidemia affects xx proportion of the population with notable health disparities across racial/ethnic groups
     - Adverse lipid levels represent strong risk factors for mnay cardiovascular disease outcomes
     - Lipids are targets for intervention because they represent modifiable factors
@@ -75,14 +102,12 @@ output:
 ### The postnatal period is a critical window of time in which accelerated growth can influence risk of chronic disease later in life: developmental programming hypothesis
 
 \centering
-![Santos](figures/santos-2012-fig1.png)
+\includegraphics[scale=0.75]{figures/santos-2012-fig1.png}
 
 ### Directed Acyclic Graph (DAG)
 
 \begin{figure}
-	\caption{Directed Acyclic Diagram (DAG) for research topic.}
-	\label{dag1}
- \scalebox{.75}{
+ \scalebox{1.5}{
 	\large{\begin{tikzpicture}[%
 		->,
 		>=stealth,
@@ -94,15 +119,15 @@ output:
 		]
 		\node[color=red] (1) {infant growth};
 		\node[right=of 1] (2) {\begin{tabular}{c}dyslipidemia, \\ adolesence \end{tabular}};
-		\draw [->] (1) to (2);
+		\draw [->, line width=2pt] (1) to (2);
 	\end{tikzpicture}}
 }
 \end{figure}
 
 
 # Specific Aims
+## Specific Aims
 
-## Aims
 ### Aims
 
 Overall:
@@ -165,6 +190,7 @@ We expect:
 2. A gene-environment interaction exists in which extreme and less favorable growth characteristics will exhibit stronger, deleterious associations between the genetic variants and dyslipidemia.
 
 # Approach
+## Approach
 
 ### Use SITAR\footfullcite{Beath KJ; Heller GZ.  Latent trajectory modelling of multivariate binary data. Statistical Modelling. 2009 Oct 21;9(3):199-213. Cole TJ; Donaldson MDC, Ben-Shlomo Y. SITAR -- a useful instrument for growth curve analysis. International Journal of Epidemiology. 2010 Jul 20;39(6):1558–66.} method to measure 3 types of postnatal growth: size, tempo, velocity
 
@@ -185,6 +211,7 @@ We expect:
 ### SLCS lipid variants and dyslipidemia in adolescence
 
 # Conclusions
+## Conclusions
 
 ### Strengths and Limitation
 

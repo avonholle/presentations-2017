@@ -57,7 +57,7 @@
 
 \usepackage{booktabs}
 \usepackage{pifont}
-\setbeamersize{text margin left=10pt,text margin right=10pt} %set margin sizes
+\setbeamersize{text margin left=15pt,text margin right=15pt} %set margin sizes
 \usepackage{float}
 %\usepackage[table]{xcolor}%option clash for xcolor
 \usepackage{tabulary}
@@ -90,6 +90,12 @@
 
 \renewcommand{\footnotesize}{\tiny}  % change font size of citation
 \renewcommand\multicitedelim{\addsemicolon\space} % This doesn't seem to work, but see http://tex.stackexchange.com/questions/167665/multiple-references-with-footfullcite
+
+\usepackage{pgfpages}
+\setbeameroption{show notes}
+\setbeameroption{show notes on second screen=right}
+
+\widowpenalties 1 150
 
 %%% END of my additions %%%
 
