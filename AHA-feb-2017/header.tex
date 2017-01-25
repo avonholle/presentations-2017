@@ -13,7 +13,7 @@
 \usepackage{enumitem}
 \usepackage{amsfonts}
 \usepackage{tikz}
-\usetikzlibrary{arrows.meta,positioning}
+\usetikzlibrary{arrows.meta,positioning,decorations.markings}
 
 % \setbeamercolor*{local structure}{fg=white}
 % \setbeamercolor*{enumerate item}{fg=white}
@@ -57,39 +57,10 @@
 
 \usepackage{booktabs}
 \usepackage{pifont}
-\setbeamersize{text margin left=15pt,text margin right=15pt} %set margin sizes
+\setbeamersize{text margin left=10pt,text margin right=10pt} %set margin sizes
 \usepackage{float}
 %\usepackage[table]{xcolor}%option clash for xcolor
 \usepackage{tabulary}
-
-% got from http://tex.stackexchange.com/questions/48023/mimic-bibtex-apalike-with-biblatex-biblatex-apa-broken
-\PassOptionsToPackage{
-        style=numeric,
-        hyperref=true,
-        backend=bibtex,
-        maxbibnames=99,
-        firstinits=true,
-        uniquename=init,
-        maxcitenames=2,
-        parentracker=true,
-        url=false,
-        doi=true,
-        isbn=false,
-        eprint=false,
-        backref=true,
-            }   {biblatex}
-
-\usepackage{biblatex}
-\addbibresource{bib1}
-% see http://tex.stackexchange.com/questions/43083/author-year-abbr-journal-name-as-citation-style
-\DeclareCiteCommand{\longcite}{(}{%
-    \printnames[author]{author}, \printfield{year})}{}{}%
-
-\newcommand{\customcite}[1]{\citeauthor{#1}, \citetitle{#1}, \citeyear{#1}}
-\newcommand{\customcitetwo}[1]{\citeauthor{#1}, \citeyear{#1}}
-
-\renewcommand{\footnotesize}{\tiny}  % change font size of citation
-\renewcommand\multicitedelim{\addsemicolon\space} % This doesn't seem to work, but see http://tex.stackexchange.com/questions/167665/multiple-references-with-footfullcite
 
 \usepackage{pgfpages}
 \setbeameroption{show notes}
