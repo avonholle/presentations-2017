@@ -1,0 +1,151 @@
+---
+title: "Infant growth trajectories and dyslipidemia in adolescence"
+csl: ama.csl
+date: "February 2, 2017"
+output:
+  beamer_presentation:
+    colortheme: beetle
+    fig_caption: no
+    includes:
+      in_header: header.tex
+    slide_level: 3
+    theme: Frankfurt
+    toc: yes
+  ioslides_presentation: default
+  slidy_presentation: default
+fontsize: 16pt
+bibliography: bib1.bib
+---
+
+<!-- General notes:
+1) Cannot have any characters in the notes section that are not allowed in Latex without special treatment like underscores, forward slashes and colons.
+-->
+
+
+# Additional slides
+## Additional slides
+
+### Full Directed Acyclic Graph (DAG)
+
+
+<!-- For some reason I have to redefine the arrow within each frame or it does not work. -->
+\tikzset{
+  big blue arrow/.style={
+  line width=2pt,
+    decoration={markings,mark=at position 1 with {\arrow[scale=2,blue]{>}}},
+    postaction={decorate},
+    shorten >=0.4pt}}
+
+\tikzset{
+  red arrow/.style={
+  line width=2pt,
+    decoration={markings,mark=at position 1 with {\arrow[scale=2,red]{>}}},
+    postaction={decorate},
+    shorten >=0.4pt}}
+
+\centering
+\begin{figure}
+ \scalebox{1.1}{
+	\begin{tikzpicture}[%
+		->,
+		>=stealth,
+		node distance=1cm,
+		pil/.style={
+			->,
+			thick,
+			shorten =2pt,}
+		]
+		\node[color=black] (exp) {\begin{tabular}{c}greater than average \\ infant growth\end{tabular}};
+		\node[above left=of exp] (age) {\begin{tabular}{c}maternal \\ age \end{tabular}};
+		\node[below left=of exp] (height) {\begin{tabular}{c}maternal \\ height \end{tabular}};
+		\node[left=of exp] (parity) {parity};
+		\node[above=of exp] (meduc) {\begin{tabular}{c}maternal \\ education\end{tabular}};
+		
+		\node[right=of exp] (outc) {\begin{tabular}{c}dyslipidemia, \\ 18 years \end{tabular}};
+		
+		\node[below=of outc](allele){\begin{tabular}{c}lipid risk\\allele\end{tabular}};
+		\node[below=of exp](ge){\begin{tabular}{c}lipid risk allele x\\ infant growth \end{tabular}};
+
+		\draw [->, big blue arrow] (age) to (exp);
+		\draw [->, big blue arrow] (height) to (exp);
+		\draw [->, big blue arrow] (parity) to (exp);
+		\draw [->, big blue arrow] (meduc) to (exp);
+		
+		\draw [->, red arrow] (exp) to (outc);
+		
+		\draw [->, big blue arrow] (allele) to (outc);
+		\draw [->, big blue arrow] (allele) to (ge);
+		\draw [->, big blue arrow] (exp) to (ge);
+		\draw [->, big blue arrow] (ge) to (outc);
+		
+	\end{tikzpicture}
+}
+\end{figure}
+
+
+
+
+<!-- FULL DAG:
+
+
+
+\begin{figure}
+	\caption{Directed Acyclic Diagram (DAG) for research topic.}
+	\label{dag1}
+ \scalebox{.75}{
+	\large{\begin{tikzpicture}[%
+		->,
+		>=stealth,
+		node distance=1cm,
+		pil/.style={
+			->,
+			thick,
+			shorten =2pt,}
+		]
+		\node[color=red] (1) {infant growth};
+		\node[above =of 1] (2) {breastfeeding};
+		\node[left = of 1] (9) {birth weight};
+		\node[below=of 9, xshift=-1cm] (3) {genetic factors};
+		\node[above right=of 1, yshift=1cm] (4) {child growth};
+		\node[above right=of 4] (6) {exercise};
+		\node[right=of 1, xshift=2.2cm](13){\begin{tabular}{c}lipid risk allele x\\ infant growth \end{tabular}};
+		\node[right=of 13] (5) {\begin{tabular}{c}dyslipidemia, \\ adolesence \end{tabular}};
+		\node[above=of 4] (7) {diet};
+		\node[above= of 5] (8) {smoking};
+		\node[below=of 1] (11) {\begin{tabular}{c}adiposity, \\ early childhood \end{tabular}};
+		\node[below left=of 11, xshift=1cm] (10) {male};
+		\node[below right=of 1] (12) {\begin{tabular}{c}male x adiposity \\ early childhood \end{tabular}};
+		\node[below=of 5](14){\begin{tabular}{c}lipid risk\\allele\end{tabular}};
+		\node[above=of 10, xshift=0.5cm, yshift=0.5cm](15){SES};
+		\node[above left=of 4](16){SES, child};
+		\node[below =of 12](17){ancestry};
+		\draw [->] (2) to (1);
+		\draw [->] (3) to (9);
+		\draw [->] (3) to [bend right=70] (5);
+		\draw [->] (6) to (4);
+		\draw [->] (7) to (4);
+		\draw [->] (7) to (5);
+		\draw [->] (6) to (5);
+		\draw [->] (8) to (5);
+		\draw [->] (9) to (1);
+		\draw [->] (1) to (4);
+		\draw [->] (1) to (11);
+		\draw [->] (11) to (12);
+		\draw [->] (1) to (13);
+		\draw [->] (13) to (5);
+		\draw [->] (10) to (12);
+		\draw [->] (10) to (9);
+		\draw [->] (10) to (1);
+		\draw [->] (12) to (4);
+		\draw [->] (14) to (13);
+		\draw [->] (14) to (5);
+		\draw [->] (15) to (9);
+		\draw [->] (15) to (1);
+		\draw [->] (16) to (4);
+		\draw [->] (17) to (1);
+		\draw [->] (17) to (5);
+	\end{tikzpicture}}
+}
+\end{figure}
+
+-->
