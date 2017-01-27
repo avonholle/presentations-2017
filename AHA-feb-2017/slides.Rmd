@@ -331,21 +331,59 @@ This second method is a different way of getting at the same question. Does grow
 \includegraphics[scale=0.4]{figures/sim-lgmm-2.png}
 
 # Preliminary results
-## Preliminary results
+## Supporting work
 
-### Recent project: SLCS lipid variants and dyslipidemia in adolescence in SLCS sample are similar to Finnish study
+### Supporting work links to dissertation aims
 
-Weighted polygenic risk score (wPRS) regression coefficients 
-<!-- Note: this figure from slcs-ms-results.R -->
+<!-- MAKE a conceptual figure with my current projects and how they relate to my dissertation -->
 
+\tikzset{
+  bla/.style={
+, line width=1pt, arrows={-Stealth[angle=45:10pt, scale=1.5, blue, fill=blue]}}}
 
 \centering
-\includegraphics[scale=.45]{figures/slcs-ms-results.png}
+ \hspace*{-2cm}\begin{figure}
+ \scalebox{0.5}{
+	\begin{tikzpicture}[%
+		->,
+		>=stealth,
+		node distance=1cm,
+		pil/.style={
+			->,
+			thick,
+			shorten =2pt,}
+		]
 
+		\node[color=black] (topic) {\begin{tabular}{c} \textbf{Dissertation topic}: \\ infant growth trajectories \\  and dyslipidemia in adolescence \end{tabular}};
+		
+		\node[below left=of topic] (aim1) {\begin{tabular}{c} \textbf{Aim 1}: \\ Characterize individual growth trajectories \\ in the first year of life \end{tabular}};
 
-\note{This research project relates to my third aim and will be an AHA poster at the EPID lifestyle March 2017 conference in Portland.
+		\node[below=of topic] (aim2) {\begin{tabular}{c} \textbf{Aim 2}: \\ Association between postnatal \\ growth trajectories and dyslipidemia. \end{tabular}};
 
-- Describe the figure.}
+		\node[below right=of topic] (aim3) {\begin{tabular}{c} \textbf{Aim 3}: \\ Interaction between growth and \\ lipid metabolism genetic variants. \end{tabular}};
+
+		\node[below=of aim1] (paper1) {\begin{tabular}{c} \textbf{Paper 1}: \\  Bias when standardizing growth trajectories, \\ a simulation study \end{tabular}};
+
+		\node[below=of aim3] (paper2) {\begin{tabular}{c} \textbf{Paper 2}: \\  Association between GWAS lipid variants \\ and dyslipidemia \\ in the SLCS sample \end{tabular}};
+
+		\node[below=of aim2] (paper3) {\begin{tabular}{c} \textbf{Paper 3}: \\  Dyslipidemia as a \\ construct in SEM \end{tabular}};
+
+		\draw [->, bla] (topic) to (aim1);
+		\draw [->, bla] (topic) to (aim2);
+		\draw [->, bla] (topic) to (aim3);
+		
+		\draw [->, bla] (paper1) to (aim1);
+		\draw [->, bla] (paper2) to (aim3);
+		\draw [->, bla] (paper3) to (aim2);
+		\draw [->, bla] (paper3) to (aim3);
+
+	\end{tikzpicture}
+}
+\end{figure}
+
+\note{Analysis for papers 1, 2 and 3 are complete. Papers 2 and 3 will be AHA posters at the EPID lifestyle March 2017 conference in Portland.
+
+- Describe the projects.}
 
 # Conclusions
 ## Conclusions
