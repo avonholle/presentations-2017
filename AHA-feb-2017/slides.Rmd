@@ -24,11 +24,10 @@ bibliography: bib1.bib
 # Background
 ## Background
 
-### What is dyslipidemia? [@de_Jesus_2011]
+### Dyslipidemia and lipid thresholds for children? [@de_Jesus_2011]
 
 \centering
 \includegraphics[scale=0.17]{figures/expert-2011-table9-1.png}
-
 
 ### Dyslipidemia patterns by socio-demographic characteristics in United States children [@nguyen_abnormal_2015]
 
