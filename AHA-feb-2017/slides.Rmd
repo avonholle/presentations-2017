@@ -369,7 +369,59 @@ Weighted polygenic risk score (wPRS) regression coefficients
 
 ### Future Research
 
-- Examine mediating pathways between childhood and adolescence.
+<!-- For some reason I have to redefine the arrow within each frame or it does not work. -->
+
+\tikzset{
+  ra/.style={
+, line width=2pt, arrows={-Stealth[angle=45:10pt, scale=2, red,fill=red]}}}
+
+
+\tikzset{
+  ba/.style={
+, line width=1pt, arrows={-Stealth[angle=45:10pt, scale=1, black, fill=black]}}}
+
+
+\centering
+\begin{figure}
+ \scalebox{1.1}{
+	\begin{tikzpicture}[%
+		->,
+		>=stealth,
+		node distance=1cm,
+		pil/.style={
+			->,
+			thick,
+			shorten =2pt,}
+		]
+		\node[color=black] (exp) {\begin{tabular}{c}greater than average \\ infant growth\end{tabular}};
+		\node[right=of exp](cgrowth){\begin{tabular}{c} child \\ growth \end{tabular}};
+		\node[right=of cgrowth] (outc) {\begin{tabular}{c}dyslipidemia, \\ 18 years \end{tabular}};
+		\node[above right=of cgrowth] (diet) {diet};
+		\node[above left=of cgrowth] (pi) {physical inactivity};
+
+		\draw [->, ra] (exp) to (cgrowth);
+		\draw [->, ra] (exp) to [bend right=35] (outc);
+		\draw [->, ra] (cgrowth) to (outc);
+		
+		\draw [->, ba] (diet) to [bend left=-45] (cgrowth);
+		\draw [->, ba] (pi) to (cgrowth);
+		
+		\draw [->, ba] (diet) to (outc);
+		\draw [->, ba] (pi) to (outc);
+
+	\end{tikzpicture}
+}
+\end{figure}
+
+\note{In this work I will be estimating the total effect of my exposure, child growth, on the outcome, dyslipidemia in adolescence. 
+
+- However, what remains unexplained are the 
+
+- indirect effects acting through child growth and
+
+- direct effect of exposure unexplained by the mediators.
+
+- An exploratory investigation of mediation analysis is of interest because some people advocate only intervention later, say in adolescence, but the size of these indirect and direct effects are not clear.}
 
 ### Additional Information
 
@@ -385,7 +437,7 @@ Many thanks to:
 
 **Contact information**
 
-Email: vonholle at email.unc.edu
+Email: vonholle at unc.edu
 
 Portfolio of current work: \url{avonholle.github.io}
 
