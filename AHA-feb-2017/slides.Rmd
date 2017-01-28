@@ -198,9 +198,16 @@ This is a unique opportunity to replicate results in a similar cohort from the s
 
 \note{We expect to replicate previous findings indicating a positive association between:
 
-1. Maternal characteristics such as pre-pregnancy BMI, height and age with trajectory size.
+1. Maternal characteristics such as 
+- maternal height, 
+- age and 
+- education 
+with velocity and size.
 
-2. Maternal education and trajectory velocity.}
+- In the original analyses height, age have a positive association with size (except education).
+
+- Also, these three factors have a negative association with velocity.
+}
 
 ## Aim 2
 ### Aim 2: Examine the association between postnatal growth trajectories and dyslipidemia.
@@ -248,24 +255,20 @@ We expect: Infants with faster growth trajectories will be more susceptible to d
 ## Aim 3
 ### Aim 3: Assess interaction between growth and lipid metabolism genetic variants.
 
-<!-- For some reason I have to redefine the arrow within each frame or it does not work. -->
-\tikzset{
-  big blue arrow/.style={
-  line width=2pt,
-    decoration={markings,mark=at position 1 with {\arrow[scale=2,blue]{>}}},
-    postaction={decorate},
-    shorten >=0.4pt}}
+<!-- see following paper for effect modification presentation in DAGS. DOI: https://doi.org/10.1097/EDE.0b013e318127181b -->
+
 
 \tikzset{
-  red arrow/.style={
-  line width=2pt,
-    decoration={markings,mark=at position 1 with {\arrow[scale=2,red]{>}}},
-    postaction={decorate},
-    shorten >=0.4pt}}
+  ba/.style={
+, line width=1pt, arrows={-Stealth[angle=45:10pt, scale=1, black, fill=black]}}}
+
+\tikzset{
+  ra/.style={
+, line width=1pt, arrows={-Stealth[angle=45:10pt, scale=1.5, red, fill=red]}}}
 
 \centering
 \begin{figure}
- \scalebox{1.25}{
+ \scalebox{1.2}{
 	\begin{tikzpicture}[%
 		->,
 		>=stealth,
@@ -278,23 +281,19 @@ We expect: Infants with faster growth trajectories will be more susceptible to d
 		\node[color=black] (exp) {\begin{tabular}{c}greater than average \\ infant growth\end{tabular}};
 		\node[right=of exp] (outc) {\begin{tabular}{c}dyslipidemia, \\ 17 years \end{tabular}}; 
 		
-		\node[below=of outc](allele){\begin{tabular}{c}lipid risk\\allele\end{tabular}};
-		\node[below=of exp](ge){\begin{tabular}{c}lipid risk allele x\\ infant growth \end{tabular}};
+		\node[below=of outc, rectangle, draw=black, line width=1mm, rounded corners](allele){\begin{tabular}{c}lipid risk\\allele\end{tabular}};
 
-		\draw [->, red arrow] (exp) to (outc);
+		\draw [->, ra] (exp) to (outc);
 		
-		\draw [->, big blue arrow] (allele) to (outc);
-		\draw [->, big blue arrow] (allele) to (ge);
-		\draw [->, big blue arrow] (exp) to (ge);
-		\draw [->, big blue arrow] (ge) to (outc);
+		\draw [->, ba] (allele) to (outc);
 		
 	\end{tikzpicture}
 }
 \end{figure}
 
-\note{Question: Do growth trajectories modify the association between genetic variants related to lipid metabolism and dyslipidemia in adolescence?
+\note{-Question: Do growth trajectories modify the association between genetic variants related to lipid metabolism and dyslipidemia in adolescence?
 
-We expect: 
+- We expect: 
 
 1. The selected genetic variants will associate with dyslipidemia in adolescence.
 
@@ -337,13 +336,15 @@ This second method is a different way of getting at the same question. Does grow
 
 <!-- MAKE a conceptual figure with my current projects and how they relate to my dissertation -->
 
+\vskip -2cm
+
 \tikzset{
   bla/.style={
 , line width=1pt, arrows={-Stealth[angle=45:10pt, scale=1.5, blue, fill=blue]}}}
 
 \centering
  \hspace*{-2cm}\begin{figure}
- \scalebox{0.5}{
+ \scalebox{0.6}{
 	\begin{tikzpicture}[%
 		->,
 		>=stealth,
@@ -354,19 +355,19 @@ This second method is a different way of getting at the same question. Does grow
 			shorten =2pt,}
 		]
 
-		\node[color=black] (topic) {\begin{tabular}{c} \textbf{Dissertation topic}: \\ infant growth trajectories \\  and dyslipidemia in adolescence \end{tabular}};
+		\node[color=black, fill=white] (topic) {\begin{tabular}{c} \textbf{Dissertation topic}: \\ infant growth trajectories \\  and dyslipidemia in adolescence \end{tabular}};
 		
-		\node[below left=of topic] (aim1) {\begin{tabular}{c} \textbf{Aim 1}: \\ Characterize individual growth trajectories \\ in the first year of life \end{tabular}};
+		\node[below left=of topic, fill=white] (aim1) {\begin{tabular}{c} \textbf{Aim 1}: \\ Characterize individual \\growth trajectories \\ in the first year of life \end{tabular}};
 
-		\node[below=of topic] (aim2) {\begin{tabular}{c} \textbf{Aim 2}: \\ Association between postnatal \\ growth trajectories and dyslipidemia. \end{tabular}};
+		\node[below=of topic, fill=white] (aim2) {\begin{tabular}{c} \textbf{Aim 2}: \\ Association between\\ postnatal growth trajectories\\ and dyslipidemia. \end{tabular}};
 
-		\node[below right=of topic] (aim3) {\begin{tabular}{c} \textbf{Aim 3}: \\ Interaction between growth and \\ lipid metabolism genetic variants. \end{tabular}};
+		\node[below right=of topic, fill=white] (aim3) {\begin{tabular}{c} \textbf{Aim 3}: \\ Interaction between\\ growth and lipid\\metabolism genetic variants. \end{tabular}};
 
-		\node[below=of aim1] (paper1) {\begin{tabular}{c} \textbf{Paper 1}: \\  Bias when standardizing growth trajectories, \\ a simulation study \end{tabular}};
+		\node[below=of aim1, fill=white] (paper1) {\begin{tabular}{c} \textbf{Paper 1}: \\  Bias when standardizing \\growth trajectories, \\ a simulation study \end{tabular}};
 
-		\node[below=of aim3] (paper2) {\begin{tabular}{c} \textbf{Paper 2}: \\  Association between GWAS lipid variants \\ and dyslipidemia \\ in the SLCS sample \end{tabular}};
+		\node[below=of aim3, fill=white] (paper2) {\begin{tabular}{c} \textbf{Paper 2}: \\  Association between\\ GWAS lipid variants \\ and dyslipidemia \\ in the SLCS sample \end{tabular}};
 
-		\node[below=of aim2] (paper3) {\begin{tabular}{c} \textbf{Paper 3}: \\  Dyslipidemia as a \\ construct in SEM \end{tabular}};
+		\node[below=of aim2, fill=white] (paper3) {\begin{tabular}{c} \textbf{Paper 3}: \\  Dyslipidemia as a \\ construct in SEM \end{tabular}};
 
 		\draw [->, bla] (topic) to (aim1);
 		\draw [->, bla] (topic) to (aim2);
@@ -426,7 +427,7 @@ This second method is a different way of getting at the same question. Does grow
 
 \centering
 \begin{figure}
- \scalebox{1.1}{
+ \scalebox{0.9}{
 	\begin{tikzpicture}[%
 		->,
 		>=stealth,
