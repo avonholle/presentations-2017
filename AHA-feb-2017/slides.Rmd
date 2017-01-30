@@ -34,15 +34,6 @@ bibliography: bib1.bib
 \centering
 \includegraphics[scale=0.12]{figures/Nguyen-2015-fig4.png}
 
-### Dyslipidemia is an established cardiovascular disease risk factor [@mozaffarian_heart_2015]
-
-\centering
-\includegraphics[scale=0.14]{figures/mozz-2008-fig1.png}
-
-\note{It is clear that dyslipidemia is an established risk factor for CVD.
-
-Dyslipidemia is an established risk factor for cardiovascular disease}
-
 
 ### Lipid Disparities: burden in African-American and Mexican-American children [@mozaffarian_heart_2015]
 
@@ -61,6 +52,17 @@ Trends in mean serum total cholesterol among adolescents 12 to 19 years of age b
 - Mex. Am. indicates Mexican American; and NH, non-Hispanic. 
 
 - Source: National Center for Health Statistics and National Heart, Lung, and Blood Institute}
+
+### Dyslipidemia is an established cardiovascular disease risk factor [@mozaffarian_heart_2015]
+
+\centering
+\includegraphics[scale=0.14]{figures/mozz-2008-fig1.png}
+
+\note{It is clear that dyslipidemia is an established risk factor for CVD.
+
+Dyslipidemia is an established risk factor for cardiovascular disease}
+
+
 
 ### Dyslipidemia can start in childhood and track through adulthood
 
@@ -128,7 +130,6 @@ Oostvogels & 2014 &          & -        & +      &        &                     
 \centering
 \includegraphics[scale=0.17]{figures/Habbout-2013-fig3-rev.png}
 
-
 \note{This idea fits within the developmental programming hypothesis.
 
 - the key idea in this figure is that events occuring after birth can be subject to interventions which can alter the path to chronic disease.
@@ -176,7 +177,7 @@ High quality clinical measures of cardiovascular disease risk factors.}
 			shorten =2pt,}
 		]
 		\node[color=black] (exp) {\begin{tabular}{c}greater than average \\ infant growth\end{tabular}};
-		<!-- % \node[right=of 1] (2) {\begin{tabular}{c}dyslipidemia, \\ adolescence \end{tabular}};  -->
+		
 		\node[above left=of exp] (age) {\begin{tabular}{c}maternal \\ age \end{tabular}};
 		\node[below left=of exp] (height) {\begin{tabular}{c}maternal \\ height \end{tabular}};
 		\node[left=of exp] (parity) {parity};
@@ -246,9 +247,9 @@ with velocity and size.
 	}
 
 
-\note{The red arrow indicates the causal path of interest.
+\note{-The red arrow indicates the causal path of interest.
 
-Question: Do certain postnatal growth trajectories associate with dyslipidemia?
+-Question: Do certain postnatal growth trajectories associate with dyslipidemia?
 
 We expect: Infants with faster growth trajectories will be more susceptible to dyslipidemia in adolescence.}
 
@@ -329,10 +330,51 @@ This second method is a different way of getting at the same question. Does grow
 \centering
 \includegraphics[scale=0.4]{figures/sim-lgmm-2.png}
 
-# Preliminary results
-## Supporting work
 
-### Supporting work links to dissertation aims
+# Conclusions
+## Conclusions
+
+### Strengths and Limitation
+
+* Strengths
+
+    - Sample
+  
+    - Novel methods
+
+* Limitations
+
+    - Total effect vs indirect effects
+    
+* Public Health Impact
+  
+\note{There are arguments that early life exposures are over-stated and it is really later life exposures in the lifecourse that affect outcomes. 
+
+- Start by citing the Gustafsson 2010 paper. 
+
+- This topic can lead into the importance of early life intervention even if there are mediating factors in the lifecourse, which may be more difficult to intervene upon.
+
+- **Interventions** hold promise but are not clear: Feeding changes and supplements possible in first six months.
+
+    - **Public health implications** of this work.
+
+    - Should be clearly stated that there are no human studies with interventions. Literature is also very sparse.
+
+      - More work is needed to understand the mechanism by which this process occurs before offering any solutions and/or interventions.
+
+      - Although lipids were not studied one animal study in 2016 indicates caloric restriction can impact cvd risk factor programming. (Li 2016).
+
+      - Other studies, from 2015 onwards suggest other approaches such as...
+
+        - feeding Sohi 2015 and Breij 2014
+
+        - fish oil supplement Li 2015
+
+        - epigenetic Keating 2015
+}
+
+
+### Supporting work with links to dissertation aims
 
 <!-- MAKE a conceptual figure with my current projects and how they relate to my dissertation -->
 
@@ -385,31 +427,6 @@ This second method is a different way of getting at the same question. Does grow
 \note{Analysis for papers 1, 2 and 3 are complete. Papers 2 and 3 will be AHA posters at the EPID lifestyle March 2017 conference in Portland.
 
 - Describe the projects.}
-
-# Conclusions
-## Conclusions
-
-### Strengths and Limitation
-
-* Strengths
-
-* Limitations
-
-### Interventions hold promise but are not clear.
-
-- Change postnatal environment to reduce postnatal overfeeding?
-
-\note{Now I will discuss the public health implications of this work.
-
-- Should be clearly stated that there are no human studies of this concept.
-
-- Literature is also very sparse.
-
-- More work is needed to understand the mechanism by which this process occurs before offering any solutions and/or interventions.
-
-- Although lipids were not studied one animal study in 2016 indicates caloric restriction can impact cvd risk factor programming. (Li 2016)
-}
-
 
 ### Future Research: exploratory analysis of factors on the path between postnatal growth and dyslipidemia
 
@@ -465,7 +482,9 @@ This second method is a different way of getting at the same question. Does grow
 
 - direct effect of exposure unexplained by the mediators.
 
-- An exploratory mediation analysis is of interest because some people advocate only intervention later, say in adolescence, but the size of these indirect and direct effects are not clear.}
+- An exploratory mediation analysis is of interest because some people advocate only intervention later, say in adolescence, but the size of these indirect and direct effects are not clear.
+
+- This aim would address shortcomings in current work.}
 
 ### Additional Information
 
