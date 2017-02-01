@@ -32,13 +32,6 @@
   font={\color{white}}, % if colour is needed
 }
 
-
-% \definecolor{myblue}{RGB}{123, 175, 212}%see http://tex.stackexchange.com/questions/110101/how-to-change-the-color-of-bullets-in-a-list
-
-\definecolor{mywhite}{RGB}{255, 255, 255}
-\setlist[itemize,1]{label=\color{mywhite}\large$\bullet$} % part of enumitem
-\setlist[itemize,2]{label=\color{mywhite}$\diamond$}
-
 \setbeamertemplate{navigation symbols}{}
 \institute{Department of Epidemiology}
 \author{Ann Von Holle}
@@ -50,6 +43,16 @@
 \setbeamercovered{transparent}
 
 %%% BEGINNING of my additions %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+% \definecolor{myblue}{RGB}{123, 175, 212}%see http://tex.stackexchange.com/questions/110101/how-to-change-the-color-of-bullets-in-a-list
+
+\definecolor{mywhite}{RGB}{255, 255, 255}
+\setlist[itemize,1]{label=\color{mywhite}\Large$\bullet$} % part of enumitem
+\setlist[itemize,2]{label=\color{mywhite}$\Large\diamond$}
+
 
 % see http://tex.stackexchange.com/questions/12703/how-to-create-fixed-width-table-columns-with-text-raggedright-centered-raggedlef
 \usepackage{array}
@@ -72,7 +75,10 @@
 
 \usepackage[backend=bibtex]{biblatex}
 
+\newcommand\Fonteighteen{\fontsize{18}{19.5}\selectfont}
+
 %%% END of my additions %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \definecolor{clemsonpurple}{HTML}{522D80}
 \definecolor{clemsonorange}{HTML}{F66733}

@@ -24,44 +24,55 @@ bibliography: bib1.bib
 # Background
 ## Background
 
-### Dyslipidemia and lipid thresholds for children? [@de_Jesus_2011]
+### What is dyslipidemia and lipid thresholds for children? [@de_Jesus_2011]
 
 \centering
 \includegraphics[scale=0.17]{figures/expert-2011-table9-1.png}
+
+\note{1. Will start with a definition. These values for plasma lipid and lipoprotein levels are from the NCEP Expert Panel on Cholesterol Levels in Children.
+
+2. Thresholds for children different than adults.
+
+3. Exceeding any of these categories results in a child being categorized as having dyslipidemia.
+}
 
 ### Dyslipidemia patterns by socio-demographic characteristics in United States children [@nguyen_abnormal_2015]
 
 \centering
 \includegraphics[scale=0.12]{figures/Nguyen-2015-fig4.png}
 
+\note{1. Prevalence estimates here reflect differences across groups.}
 
-### Lipid Disparities: burden in African-American and Mexican-American children [@mozaffarian_heart_2015]
+### Racial/Ethnic lipid disparities in children exist
 
-Trends in mean serum total cholesterol among adolescents 12 to 19 years of age by race, sex, and survey year
+\vskip -0.3cm
 
+Prevalence of Dyslipidemia in Children and Adolescents Aged 8 to 17 Years, 2011-2012[@kit_prevalence_2015]
 
 \centering
+\includegraphics[scale=0.5]{figures/kit-2015-t1.png}
 
-\includegraphics[scale=0.95]{figures/F28-large.jpg}
+\note{1. Will look at racial/ethnic disparities in prevalence here.
 
+2. All categories except TC show unfavorable levels of lipids for the Hispanic group.}
 
-\note{Trends in mean serum total cholesterol among adolescents 12 to 19 years of age by race, sex, and survey year (National Health and Nutrition Examination Survey: 1988–1994, 1999–2006, and 2007–2012).
+\note{- Want to note that recent estimates for children in the US average mean average TG is 79/83 in NHW/Mexican Americans. 
 
-- Values are in mg/dL. 
+- TG is higher than both of these groups in the Chilean sample (88). 
 
-- Mex. Am. indicates Mexican American; and NH, non-Hispanic. 
+- Average HDL in a recent US sample is 48 (for both NHW/MA). HDL is lower in the Chilean sample (40) (Burrows 2015).}
 
-- Source: National Center for Health Statistics and National Heart, Lung, and Blood Institute}
 
 ### Dyslipidemia is an established cardiovascular disease risk factor [@mozaffarian_heart_2015]
 
 \centering
 \includegraphics[scale=0.14]{figures/mozz-2008-fig1.png}
 
-\note{It is clear that dyslipidemia is an established risk factor for CVD.
+\note{1. Dyslipidemia is an established risk factor for cardiovascular disease.
 
-Dyslipidemia is an established risk factor for cardiovascular disease}
+2. So far I've noted dyslipidemia is prevalence and disparities exist for HL groups.
 
+3. It's also an established risk factor for subsequent CVD.}
 
 
 ### Dyslipidemia can start in childhood and track through adulthood
@@ -69,29 +80,38 @@ Dyslipidemia is an established risk factor for cardiovascular disease}
 \centering
 \includegraphics[scale=0.13]{figures/Nuotio-2015-fig1.png}
 
-\note{Once you have dyslipidemia it is more likely than not that you will continue to have dsylipidemia once you are an adult.
+\note{1. Once you have dyslipidemia it is more likely than not that you will continue to have dsylipidemia once you are an adult.
 
-- To provide more concrete numbers here: A Finnish study with 27 years of tracking (juhola tracking 2011) indiciates that if you have high TC at age 18 the probability of having it as an adult is 63 percent for females and 84 percent for males.}
+2. This figure shows increasing levels of unfavorable lipid levels as an adult the more times a child has been diagnosed with dyslipidemia.
+
+3. To provide more concrete numbers here: A Finnish study with 27 years of tracking (juhola tracking 2011) indiciates that if you have high TC at age 18 the probability of having it as an adult is 63 percent for females and 84 percent for males.
+
+4. Tracking dyslipidemia has value and it's important to evaluate and intervene early in life.}
 
 ### Early childhood determinants of chronic disease[@hanson_early_2014] 
 
 \centering
 \includegraphics[scale=0.95]{figures/hanson-fig1-small.png}
 
-\note{This figure drives home the importance of intervention at an early age.
+\note{
+1. This figure is helpful in understanding how interventions in childhood can bring large reductions in risk later in life.
 
-This framework is nested in Developmental Origins of Health and Disease concept (DOoHAD)
+2. Explain axes and transition from one trajectory to another upon an intervention.
 
-This figure also underlines the value in studying this period. Intervention, if possible, can have better returns in health promotion as well as being easier to implement than at later ages.
+3. My dissertation topic addresses how postnatal growth functions as an exposure of postnatal programming of lipid metabolism that may affect dyslipidemia.}
 
-* Researchers have noted a wide range of chronic diseases linked to early life determinants.
 
-    - Birthweight started as one widely noted early life determinant.
-    
-    - This hypothesis started with Barker and is also known as Developmental Origins of Health and Disease (DOoHAD)
+### Postnatal over-feeding (POF) represents a critical window influencing chronic disease risk[@habbout_postnatal_2013]
 
-    - Hypotheses have evolved and now include weight change over time in infancy: growth trajectories.
-}
+
+\centering
+\includegraphics[scale=0.17]{figures/Habbout-2013-fig3-rev.png}
+
+\note{1. the key idea in this figure is that events occuring after birth can be subject to interventions which can alter the path to chronic disease.
+
+2. Animal studies provide the strongest evidence given the experimental design.
+
+3. Faster growth either by type of diet or amount of food that ends with more adverse lipid levels later in life for the animals ranging from sheep to mice.}
 
 ### Prior observational studies point towards association between postnatal growth and dyslipidemia later in life.
 
@@ -122,37 +142,31 @@ Oostvogels & 2014 &          & -        & +      &        &                     
 
 - HDL is lower for those with faster than average growth
 
-- LDL is higher for those with faster than average growth}
+- LDL is higher for those with faster than average growth.
 
-### Postnatal over-feeding (POF) represents a critical window influencing chronic disease risk[@habbout_postnatal_2013]
+- Unclear if these effects generalize to other populations.}
 
-
-\centering
-\includegraphics[scale=0.17]{figures/Habbout-2013-fig3-rev.png}
-
-\note{This idea fits within the developmental programming hypothesis.
-
-- the key idea in this figure is that events occuring after birth can be subject to interventions which can alter the path to chronic disease.
-
-- Just an example of what has been hypothesized as an intervention in xxxx
-
-- TO DO: Mention results from other animal studies here.}
 
 # Specific Aims
 ## Specific Aims
 
 ### Aims
 
+\Fonteighteen
+
 Overall:
 
   * Investigate the association between postnatal growth trajectories and lipids in adolescence
-      -  Santiago Longitudinal Cohort Study (SLCS): Contemporary Chilean birth cohort
 
-  * Investigate postnatal growth trajectories for weight-for-length, weight and length outcome measures.
+        - Santiago Longitudinal Cohort Study (SLCS): Contemporary Chilean birth cohort
 
-\note{SLCS has monthly measures of weight in the first year of life.
+\note{1. Sample: SLCS has monthly measures of weight in the first year of life.
 
-High quality clinical measures of cardiovascular disease risk factors.}
+2. High quality clinical measures of cardiovascular disease risk factors.
+
+3. Includes an understudied population bearing a large burden of cardiovascular disease.
+
+4. Growth measures will include weight-for-length, weight and length outcome measures.}
 
 ## Aim 1
 ### Aim 1:  Characterize individual growth trajectories in the first year of life
@@ -247,14 +261,14 @@ with velocity and size.
 	}
 
 
-\note{-The red arrow indicates the causal path of interest.
+\note{1. The red arrow indicates the causal path of interest.
 
--Question: Do certain postnatal growth trajectories associate with dyslipidemia?
+2. Question: Do certain postnatal growth trajectories associate with dyslipidemia?
 
-We expect: Infants with faster growth trajectories will be more susceptible to dyslipidemia in adolescence.}
+3. We expect: Infants with faster growth trajectories will be more susceptible to dyslipidemia in adolescence.}
 
 ## Aim 3
-### Aim 3: Assess interaction between growth and lipid metabolism genetic variants.
+### Aim 3: Assess lipid metabolism genetic variants as an effect modifier of growth and dyslipidemia relationship
 
 <!-- see following paper for effect modification presentation in DAGS. DOI: https://doi.org/10.1097/EDE.0b013e318127181b -->
 
@@ -316,6 +330,9 @@ Describe each panel and what it means.}
 
 ### Use latent growth mixture models (LGMM) to determine patterns of growth
 
+\centering
+\includegraphics[scale=0.4]{figures/sim-lgmm-2.png}
+
 \note{
 - Latent growth mixture models (LGMM) are the second approach I will use to search for patterns in growth and assess their association with dyslipidemia.
 
@@ -327,14 +344,14 @@ In turn one can determine if these groups have different associations with dysli
 
 This second method is a different way of getting at the same question. Does growth influence dyslipidemia.}
 
-\centering
-\includegraphics[scale=0.4]{figures/sim-lgmm-2.png}
-
 
 # Conclusions
 ## Conclusions
 
-### Strengths and Limitation
+<!--
+### Strengths and Limitations
+
+\Fonteighteen
 
 * Strengths
 
@@ -346,9 +363,26 @@ This second method is a different way of getting at the same question. Does grow
 
     - Total effect vs indirect effects
     
-* Public Health Impact
-  
-\note{There are arguments that early life exposures are over-stated and it is really later life exposures in the lifecourse that affect outcomes. 
+\note{- There are arguments that early life exposures are over-stated and it is really later life exposures in the lifecourse that affect outcomes. }
+
+
+### Public health impact: Interventions in the future
+
+\Fonteighteen
+
+- Interventions
+
+    - Dietary changes
+    
+    - Supplements
+    
+    - Epigenetics
+    
+- More work needed
+    
+    
+
+\note{
 
 - Start by citing the Gustafsson 2010 paper. 
 
@@ -372,9 +406,9 @@ This second method is a different way of getting at the same question. Does grow
 
         - epigenetic Keating 2015
 }
+-->
 
-
-### Supporting work with links to dissertation aims
+### Supporting work linked to dissertation aims
 
 <!-- MAKE a conceptual figure with my current projects and how they relate to my dissertation -->
 
@@ -424,9 +458,9 @@ This second method is a different way of getting at the same question. Does grow
 }
 \end{figure}
 
-\note{Analysis for papers 1, 2 and 3 are complete. Papers 2 and 3 will be AHA posters at the EPID lifestyle March 2017 conference in Portland.
+\note{1. Analysis for papers 1, 2 and 3 are complete. 
 
-- Describe the projects.}
+2. Papers 2 and 3 will be AHA posters at the EPID lifestyle March 2017 conference in Portland.}
 
 ### Future Research: exploratory analysis of factors on the path between postnatal growth and dyslipidemia
 
@@ -436,6 +470,10 @@ This second method is a different way of getting at the same question. Does grow
   ra/.style={
 , line width=2pt, arrows={-Stealth[angle=45:10pt, scale=2, red,fill=red]}}}
 
+
+\tikzset{
+  bla/.style={
+, line width=1pt, arrows={-Stealth[angle=45:10pt, scale=1, blue, fill=blue]}}}
 
 \tikzset{
   ba/.style={
@@ -460,9 +498,9 @@ This second method is a different way of getting at the same question. Does grow
 		\node[above right=of cgrowth] (diet) {diet};
 		\node[above left=of cgrowth] (pi) {physical inactivity};
 
-		\draw [->, ra] (exp) to (cgrowth);
+		\draw [->, bla] (exp) to (cgrowth);
 		\draw [->, ra] (exp) to [bend right=35] (outc);
-		\draw [->, ra] (cgrowth) to (outc);
+		\draw [->, bla] (cgrowth) to (outc);
 		
 		\draw [->, ba] (diet) to [bend left=-45] (cgrowth);
 		\draw [->, ba] (pi) to (cgrowth);
