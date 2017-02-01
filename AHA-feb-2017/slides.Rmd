@@ -18,7 +18,7 @@ bibliography: bib1.bib
 ---
 
 <!-- General notes:
-1) Cannot have any characters in the notes section that are not allowed in Latex without special treatment like underscores, forward slashes and colons.
+1) Cannot have any characters in the notes section that are not allowed in Latex without special treatment like underscores, forward slashes, percent signs and colons.
 -->
 
 # Background
@@ -52,11 +52,15 @@ Prevalence of Dyslipidemia in Children and Adolescents Aged 8 to 17 Years, 2011-
 \centering
 \includegraphics[scale=0.5]{figures/kit-2015-t1.png}
 
-\note{1. Will look at racial/ethnic disparities in prevalence here.
+\note{1. This figure provides more in-depth racial-ethnic disparities here.
 
-2. All categories except TC show unfavorable levels of lipids for the Hispanic group.}
+2. Certain groups such as Hispanics are at higher risk of dyslipidemia in the general U.S. population and this is evident starting at young ages. (40-30 percent of Mexican men-women have high LDL vs 30-20 for NHW.)
 
-\note{- Want to note that recent estimates for children in the US average mean average TG is 79/83 in NHW/Mexican Americans. 
+2. All categories except TC show unfavorable levels of lipids for the Hispanic group.
+
+3. These differences grow larger in the adult age group: over 50 percent of people in the Hispanic group have dyslipidemia and
+
+- Want to note that recent estimates for children in the US average mean average TG is 79/83 in NHW/Mexican Americans. 
 
 - TG is higher than both of these groups in the Chilean sample (88). 
 
@@ -72,10 +76,12 @@ Prevalence of Dyslipidemia in Children and Adolescents Aged 8 to 17 Years, 2011-
 
 2. So far I've noted dyslipidemia is prevalence and disparities exist for HL groups.
 
-3. It's also an established risk factor for subsequent CVD.}
+3. It's also an established risk factor for subsequent CVD.
+
+4. This figure also shows that it can be modified in adults via diet and exercise.}
 
 
-### Dyslipidemia can start in childhood and track through adulthood
+### Dyslipidemia tracks from early life to adulthood [@nuotio_adult_2015]
 
 \centering
 \includegraphics[scale=0.13]{figures/Nuotio-2015-fig1.png}
@@ -107,9 +113,10 @@ Prevalence of Dyslipidemia in Children and Adolescents Aged 8 to 17 Years, 2011-
 \centering
 \includegraphics[scale=0.17]{figures/Habbout-2013-fig3-rev.png}
 
-\note{1. the key idea in this figure is that events occuring after birth can be subject to interventions which can alter the path to chronic disease.
+\note{
+1. This figure illustrates the idea that an event occuring early in life can impact disease later in life.
 
-2. Animal studies provide the strongest evidence given the experimental design.
+1. Animal studies provide the strongest evidence given the experimental design.
 
 3. Faster growth either by type of diet or amount of food that ends with more adverse lipid levels later in life for the animals ranging from sheep to mice.}
 
@@ -154,11 +161,11 @@ Oostvogels & 2014 &          & -        & +      &        &                     
 
 \Fonteighteen
 
-Overall:
+* Overall
 
-  * Investigate the association between postnatal growth trajectories and lipids in adolescence
+    - Investigate the association between postnatal growth trajectories and lipids in adolescence
 
-        - Santiago Longitudinal Cohort Study (SLCS): Contemporary Chilean birth cohort
+    - Santiago Longitudinal Cohort Study (SLCS): Contemporary Chilean birth cohort
 
 \note{1. Sample: SLCS has monthly measures of weight in the first year of life.
 
@@ -310,9 +317,11 @@ with velocity and size.
 
 - We expect: 
 
-1. The selected genetic variants will associate with dyslipidemia in adolescence.
+1. Alleles in this case refer to one or more forms of a small piece of the genome (snp).
 
-2. A gene-environment interaction exists in which extreme and less favorable growth characteristics will exhibit stronger, deleterious associations between the genetic variants and dyslipidemia.}
+2. The selected genetic variants will associate with dyslipidemia in adolescence.
+
+3. Certain alleles modify the association between growth and dyslipidemia. Extreme and less favorable growth characteristics will exhibit stronger, deleterious associations with dyslipidemia given certain variants of a risk allele.}
 
 # Approach
 ## Approach
