@@ -24,7 +24,7 @@ bibliography: bib1.bib
 # Background
 ## Background
 
-### What is dyslipidemia and lipid thresholds for children? [@de_Jesus_2011]
+### What is dyslipidemia? [@de_Jesus_2011]
 
 \centering
 \includegraphics[scale=0.17]{figures/expert-2011-table9-1.png}
@@ -100,7 +100,7 @@ Prevalence of Dyslipidemia in Children and Adolescents Aged 8 to 17 Years, 2011-
 \includegraphics[scale=0.95]{figures/hanson-fig1-small.png}
 
 \note{
-- Dyslipidemia is prevalent and tracks in groups of children. This leaves the question of interventions; I am public health and this is a crucial part of epidemiology. Why is it important to modify this factor?
+- Dyslipidemia is prevalent and tracks in groups of children. This leaves the question of how to understand and prevent causes of disease: I am public health and this is a crucial part of epidemiology. Why is it important to modify this factor?
 
 1. This figure further demonstrates the idea of tracking of risk from childhood and the importance in finding causes and linked interventions to reduce risk later in life.
 
@@ -430,6 +430,10 @@ This second method is a different way of getting at the same question. Does grow
   bla/.style={
 , line width=1pt, arrows={-Stealth[angle=45:10pt, scale=1.5, blue, fill=blue]}}}
 
+\tikzset{
+  gla/.style={
+, line width=1pt, arrows={-Stealth[angle=45:10pt, scale=1.5, green, fill=green]}}}
+
 \centering
  \hspace*{-2cm}\begin{figure}
  \scalebox{0.7}{
@@ -461,10 +465,12 @@ This second method is a different way of getting at the same question. Does grow
 		\draw [->, bla] (topic) to (aim2);
 		\draw [->, bla] (topic) to (aim3);
 		
-		\draw [->, bla] (paper1) to (aim1);
-		\draw [->, bla] (paper2) to (aim3);
-		\draw [->, bla] (paper3) to (aim2);
-		\draw [->, bla] (paper3) to (aim3);
+		\draw [->, gla] (paper1) to (aim1);
+		\draw [->, gla] (paper1) to (aim2);
+		\draw [->, gla] (paper1) to (aim3);
+		\draw [->, gla] (paper2) to (aim3);
+		\draw [->, gla] (paper3) to (aim2);
+		\draw [->, gla] (paper3) to (aim3);
 
 	\end{tikzpicture}
 }
