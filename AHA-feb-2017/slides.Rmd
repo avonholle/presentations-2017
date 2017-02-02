@@ -100,20 +100,24 @@ Prevalence of Dyslipidemia in Children and Adolescents Aged 8 to 17 Years, 2011-
 \includegraphics[scale=0.95]{figures/hanson-fig1-small.png}
 
 \note{
-1. This figure is helpful in understanding how interventions in childhood can bring large reductions in risk later in life.
+- Dyslipidemia is prevalent and tracks in groups of children. This leaves the question of interventions; I am public health and this is a crucial part of epidemiology. Why is it important to modify this factor?
 
-2. Explain axes and transition from one trajectory to another upon an intervention.
+1. This figure further demonstrates the idea of tracking of risk from childhood and the importance in finding causes and linked interventions to reduce risk later in life.
+
+2. Explain axes and transition from one trajectory to another upon an intervention in context of my dissertation.
 
 3. My dissertation topic addresses how postnatal growth functions as an exposure of postnatal programming of lipid metabolism that may affect dyslipidemia.}
 
 
-### Postnatal over-feeding (POF) represents a critical window influencing chronic disease risk[@habbout_postnatal_2013]
+### Postnatal over-feeding (PNOF) represents a critical window influencing chronic disease risk[@habbout_postnatal_2013]
 
 
 \centering
 \includegraphics[scale=0.17]{figures/Habbout-2013-fig3-rev.png}
 
 \note{
+- Before any interventions can be done it is important to understand the cause of this risk factor.
+
 1. This figure illustrates the idea that an event occuring early in life can impact disease later in life.
 
 1. Animal studies provide the strongest evidence given the experimental design.
@@ -164,6 +168,7 @@ Oostvogels & 2014 &          & -        & +      &        &                     
 * Overall
 
     - Investigate the association between postnatal growth trajectories and lipids in adolescence
+    
 
     - Santiago Longitudinal Cohort Study (SLCS): Contemporary Chilean birth cohort
 
@@ -303,7 +308,7 @@ with velocity and size.
 		\node[color=black] (exp) {\begin{tabular}{c}greater than average \\ infant growth\end{tabular}};
 		\node[right=of exp] (outc) {\begin{tabular}{c}dyslipidemia, \\ 17 years \end{tabular}}; 
 		
-		\node[below=of outc, rectangle, draw=black, line width=1mm, rounded corners](allele){\begin{tabular}{c}lipid risk\\allele\end{tabular}};
+		\node[below=of outc, rectangle, draw=black, line width=1mm, rounded corners](allele){\begin{tabular}{c}genetic\\predisposition\end{tabular}};
 
 		\draw [->, ra] (exp) to (outc);
 		
@@ -317,11 +322,9 @@ with velocity and size.
 
 - We expect: 
 
-1. Alleles in this case refer to one or more forms of a small piece of the genome (snp).
+1. The selected genetic variants will associate with dyslipidemia in adolescence.
 
-2. The selected genetic variants will associate with dyslipidemia in adolescence.
-
-3. Certain alleles modify the association between growth and dyslipidemia. Extreme and less favorable growth characteristics will exhibit stronger, deleterious associations with dyslipidemia given certain variants of a risk allele.}
+2. Certain genetic predispositions modify the association between growth and dyslipidemia. Extreme and less favorable growth characteristics will exhibit stronger, deleterious associations with dyslipidemia given certain genetics unique forms.}
 
 # Approach
 ## Approach
@@ -417,11 +420,11 @@ This second method is a different way of getting at the same question. Does grow
 }
 -->
 
-### Supporting work linked to dissertation aims
+### Current work linked to dissertation aims
 
 <!-- MAKE a conceptual figure with my current projects and how they relate to my dissertation -->
 
-\vskip -2cm
+\vskip -1cm
 
 \tikzset{
   bla/.style={
@@ -429,7 +432,7 @@ This second method is a different way of getting at the same question. Does grow
 
 \centering
  \hspace*{-2cm}\begin{figure}
- \scalebox{0.6}{
+ \scalebox{0.7}{
 	\begin{tikzpicture}[%
 		->,
 		>=stealth,
@@ -440,19 +443,19 @@ This second method is a different way of getting at the same question. Does grow
 			shorten =2pt,}
 		]
 
-		\node[color=black, fill=white] (topic) {\begin{tabular}{c} \textbf{Dissertation topic}: \\ infant growth trajectories \\  and dyslipidemia in adolescence \end{tabular}};
+		\node[color=black, fill=white] (topic) {\begin{tabular}{c} \textbf{Dissertation topic}: \\ Does faster than normal infant growth \\ influence dyslipidemia in adolescence? \end{tabular}};
 		
-		\node[below left=of topic, fill=white] (aim1) {\begin{tabular}{c} \textbf{Aim 1}: \\ Characterize individual \\growth trajectories \\ in the first year of life \end{tabular}};
+		\node[below left=of topic, fill=white] (aim1) {\begin{tabular}{c} \textbf{Aim 1} \end{tabular}};
 
-		\node[below=of topic, fill=white] (aim2) {\begin{tabular}{c} \textbf{Aim 2}: \\ Association between\\ postnatal growth trajectories\\ and dyslipidemia. \end{tabular}};
+		\node[below=of topic, fill=white] (aim2) {\begin{tabular}{c} \textbf{Aim 2} \end{tabular}};
 
-		\node[below right=of topic, fill=white] (aim3) {\begin{tabular}{c} \textbf{Aim 3}: \\ Interaction between\\ growth and lipid\\metabolism genetic variants. \end{tabular}};
+		\node[below right=of topic, fill=white] (aim3) {\begin{tabular}{c} \textbf{Aim 3}  \end{tabular}};
 
-		\node[below=of aim1, fill=white] (paper1) {\begin{tabular}{c} \textbf{Paper 1}: \\  Bias when standardizing \\growth trajectories, \\ a simulation study \end{tabular}};
+		\node[below=of aim1, fill=white] (paper1) {\begin{tabular}{c} \textbf{Project 1}: \\  Growth trajectory \\ simulation study \end{tabular}};
 
-		\node[below=of aim3, fill=white] (paper2) {\begin{tabular}{c} \textbf{Paper 2}: \\  Association between\\ GWAS lipid variants \\ and dyslipidemia \\ in the SLCS sample \end{tabular}};
+		\node[below=of aim2, fill=white] (paper2) {\begin{tabular}{c} \textbf{Project 2}: \\ Genetic disposition and  \\ link with dyslipidemia \end{tabular}};
 
-		\node[below=of aim2, fill=white] (paper3) {\begin{tabular}{c} \textbf{Paper 3}: \\  Dyslipidemia as a \\ construct in SEM \end{tabular}};
+		\node[below=of aim3, fill=white] (paper3) {\begin{tabular}{c} \textbf{Project 3}: \\ Parsimony in \\ dyslipidemia measure \end{tabular}};
 
 		\draw [->, bla] (topic) to (aim1);
 		\draw [->, bla] (topic) to (aim2);
@@ -491,7 +494,7 @@ This second method is a different way of getting at the same question. Does grow
 
 \centering
 \begin{figure}
- \scalebox{0.9}{
+ \scalebox{1}{
 	\begin{tikzpicture}[%
 		->,
 		>=stealth,
